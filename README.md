@@ -1,87 +1,66 @@
-# Hi there, I'm Edward Twumasi 👋
+# Edward Twumasi
 
-**Full Stack Engineer · AI Tooling Builder · Founder @ Serendepify AI**
+**Systems thinker. Protocol builder. Founder @ Serendepify AI.**
 
-Passionate about building developer tools powered by AI — from database infrastructure to autonomous agent platforms.
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Database & Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+I write software that lives at the intersection of distributed systems, autonomous agents, and developer infrastructure. I care deeply about ergonomics — the kind you feel when a tool just *fits*. Most of what I build starts as something I needed and couldn't find.
 
 ---
 
-## 🚀 Featured Projects
+## What I'm Shipping
 
-| Project | Description | Tech Stack | Links |
-|---------|-------------|------------|-------|
-| **🗄️ Datafy** | Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, SQLite | TypeScript, MCP | [Repo](https://github.com/teckedd-code2save/datafy) |
-| **🤖 AI Build Tools** | AI-powered build tools to help you ship faster | TypeScript | [Repo](https://github.com/teckedd-code2save/ai-build-tools) |
-| **🗺️ Google Directions API** | Automate traffic data archiving from the Google Directions API | JavaScript | [Repo](https://github.com/teckedd-code2save/google-directions-api) |
-| **📚 Biblioteck** | Articles covering MLOps workflows using Docker sandboxes and Docker models | MLOps, Docker | [Repo](https://github.com/teckedd-code2save/biblioteck) |
-| **🌱 GenAI Environment** | Resources for GenAI environment setup and local development tools | Docker, Python | [Repo](https://github.com/teckedd-code2save/genai-environment) |
-| **🌐 edward.entire** | Personal portfolio documenting my tech journey | HTML, CSS | [Live](https://edward-entire.vercel.app) • [Repo](https://github.com/teckedd-code2save/edward.entire) |
+### [OpsMesh](https://github.com/teckedd-code2save/opsmesh)
+Multi-agent infrastructure orchestration layer. Mesh-based coordination between autonomous agents for ops workflows — think incident response, deployment pipelines, and runbook automation without the YAML cemetery. Agents negotiate tasks, propagate context, and recover from failure without a human babysitting the loop.
 
----
+### [Shipd](https://github.com/teckedd-code2save/shipd)
+Opinionated deployment engine for teams that actually want to move fast. Abstracts the gap between "works on my machine" and "running in prod" — handles environment promotion, rollback triggers, and release gating. Built for the kind of engineers who think CI/CD dashboards should be boring because everything is working.
 
-## 🏗️ Building @ Serendepify AI
+### [Agent Exchange](https://github.com/teckedd-code2save/agent-exchange)
+Runtime marketplace for composable AI agents. Drop in specialized agents — data, reasoning, retrieval, execution — and wire them together over a defined protocol. Think of it as a package registry where every package has opinions and can negotiate with other packages. Designed for systems where a single LLM call is not enough.
 
-| Product | Status | Description |
-|---------|--------|-------------|
-| **b2dp** | 🟢 Live | Scaffold production-grade backends from a business spec |
-| **DBHub AI MCP** | 🟡 Beta | AI-powered database MCP server |
-| **REACHY AI** | 🔜 Coming Soon | Autonomous AI agent platform |
+### [Spotlight](https://github.com/teckedd-code2save/spotlight)
+Surface what matters. Intelligent context aggregation layer that watches your systems, filters signal from noise, and highlights what actually needs attention. Built on top of streaming event pipelines with a semantic ranking layer that learns what you care about.
 
 ---
 
-## 📈 GitHub Stats
+## Other Work
+
+| Project | What it does |
+|---------|--------------|
+| **[Datafy](https://github.com/teckedd-code2save/datafy)** | Zero-dependency, token-efficient MCP server for Postgres, MySQL, SQL Server, SQLite. Speaks raw SQL back to agents without ballooning context. |
+| **[b2dp](https://github.com/teckedd-code2save/b2dp)** | Feed it a business spec, get a production-grade backend scaffold. Opinions included. |
+| **[Biblioteck](https://github.com/teckedd-code2save/biblioteck)** | Writing on MLOps, Docker sandboxing, and running models locally without losing your mind. |
+
+---
+
+## Currently Thinking About
+
+- Agent coordination primitives that aren't just HTTP calls with extra steps
+- Memory architectures for long-running autonomous systems
+- The unsolved problem of making multi-agent debugging not feel like reading tea leaves
+- What "production-ready AI" actually means when your system can take actions
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=teckedd-code2save&show_icons=true&theme=default&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=teckedd-code2save&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=teckedd-code2save&layout=compact&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=teckedd-code2save&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e)
 
 </div>
 
 ---
 
-## 🤝 Let's Connect
+## Find Me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://edward-entire.vercel.app)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwardsTwums)
+[Portfolio](https://edward-entire.vercel.app) · [Twitter / X](https://twitter.com/EdwardsTwums)
 
 ---
 
 <div align="center">
 
-*"Build tools. Automate problems. Ship faster."*
+*"The best abstraction is the one you don't notice."*
 
 </div>
