@@ -17,9 +17,6 @@ Opinionated deployment engine for teams that actually want to move fast. Abstrac
 ### [Agent Exchange](https://github.com/teckedd-code2save/agent-exchange)
 Runtime marketplace for composable AI agents. Drop in specialized agents — data, reasoning, retrieval, execution — and wire them together over a defined protocol. Think of it as a package registry where every package has opinions and can negotiate with other packages. Designed for systems where a single LLM call is not enough.
 
-### [Spotlight](https://github.com/teckedd-code2save/spotlight)
-Surface what matters. Intelligent context aggregation layer that watches your systems, filters signal from noise, and highlights what actually needs attention. Built on top of streaming event pipelines with a semantic ranking layer that learns what you care about.
-
 ---
 
 ## Other Work
