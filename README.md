@@ -9,13 +9,13 @@ I write software that lives at the intersection of distributed systems, autonomo
 ## What I'm Shipping
 
 ### [OpsMesh](https://github.com/teckedd-code2save/opsmesh)
-Multi-agent infrastructure orchestration layer. Mesh-based coordination between autonomous agents for ops workflows — think incident response, deployment pipelines, and runbook automation without the YAML cemetery. Agents negotiate tasks, propagate context, and recover from failure without a human babysitting the loop.
+Agent-native operations platform built on OpenClaw. First product: Gig Radar — polls gig/job sources, normalizes and deduplicates, scores via OpenClaw, fires Telegram alerts. OpenClaw handles agent runtime and reasoning; OpsMesh owns domain logic, workflow state, and data model. Next on the same foundation: DM Shop Agent over WhatsApp and Telegram.
 
 ### [Shipd](https://github.com/teckedd-code2save/shipd)
-Opinionated deployment engine for teams that actually want to move fast. Abstracts the gap between "works on my machine" and "running in prod" — handles environment promotion, rollback triggers, and release gating. Built for the kind of engineers who think CI/CD dashboards should be boring because everything is working.
+Repo-aware deployment planning tool. Connects to GitHub read-only, scans for deployment signals (Dockerfiles, CI configs, env files, infra folders), scores platforms like Railway, Fly.io, Vercel, and Render against what it finds, then produces a saved plan with comparison view and evidence trail. No code writes. No deploy execution. Just clear decisions before you touch anything.
 
-### [Agent Exchange](https://github.com/teckedd-code2save/agent-exchange)
-Runtime marketplace for composable AI agents. Drop in specialized agents — data, reasoning, retrieval, execution — and wire them together over a defined protocol. Think of it as a package registry where every package has opinions and can negotiate with other packages. Designed for systems where a single LLM call is not enough.
+### [MPP Studio](https://github.com/teckedd-code2save/agent-exchange)
+Developer console for the Machine Payments Protocol. Register APIs, run sandbox 402 flows, inspect service contracts, and graduate to live payment rails — built for agent-to-agent commerce where machines negotiate access and settle autonomously.
 
 ---
 
