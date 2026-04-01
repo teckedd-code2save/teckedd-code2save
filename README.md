@@ -9,16 +9,16 @@ I write software that lives at the intersection of distributed systems, autonomo
 ## What I'm Shipping
 
 ### [OpsMesh](https://github.com/teckedd-code2save/opsmesh)
-Agent-native operations platform built on top of OpenClaw. The first product is Gig Radar — a monorepo worker pipeline that polls gig and job sources, normalizes and deduplicates opportunities, routes them through OpenClaw for scoring and analysis, then fires high-signal Telegram alerts. OpenClaw owns the agent runtime, reasoning, and scheduled task intelligence; OpsMesh owns the business domain, workflow state, and data model. The same foundation carries the next product: DM Shop Agent over WhatsApp and Telegram.
+Agent-native operations platform built on OpenClaw. First product: Gig Radar — polls gig/job sources, normalizes and deduplicates, scores via OpenClaw, fires Telegram alerts. OpenClaw handles agent runtime and reasoning; OpsMesh owns domain logic, workflow state, and data model. Next on the same foundation: DM Shop Agent over WhatsApp and Telegram.
 
 ### [Shipd](https://github.com/teckedd-code2save/shipd)
-Chat-first deployment planning app. Connects to GitHub with read-only access, syncs repos into a deployment workspace, then scans for deployment signals — Dockerfiles, CI workflows, env files, platform config, infra folders. Scores hosting options (Railway, Fly.io, Vercel, Render) against what it actually finds in the repo and produces a saved deployment plan with a side-by-side comparison view and scan evidence trail. Deliberately planning-first: no code writes, no platform credentials, no deploy execution. Built for teams making infrastructure decisions before touching anything.
+Repo-aware deployment planning tool. Connects to GitHub read-only, scans for deployment signals (Dockerfiles, CI configs, env files, infra folders), scores platforms like Railway, Fly.io, Vercel, and Render against what it finds, then produces a saved plan with comparison view and evidence trail. No code writes. No deploy execution. Just clear decisions before you touch anything.
 
 ### [MPP Studio](https://github.com/teckedd-code2save/agent-exchange)
-Developer console for the Machine Payments Protocol. Providers register APIs, exercise sandbox 402 Payment Required flows, inspect service contracts, and graduate to testnet and live payment rails — all from one interface. Built for the emerging economy of agent-to-agent paid service calls, where machines need to negotiate access and settle without a human in the loop.
+Developer console for the Machine Payments Protocol. Register APIs, run sandbox 402 flows, inspect service contracts, and graduate to live payment rails — built for agent-to-agent commerce where machines negotiate access and settle autonomously.
 
 ### [Spotlight](https://github.com/teckedd-code2save/spotlight)
-Surface what matters. Intelligent context aggregation layer that watches your systems, filters signal from noise, and highlights what actually needs attention. Built on top of streaming event pipelines with a semantic ranking layer that learns what you care about.
+Intelligent context layer that surfaces what actually needs attention across your systems — signal over noise, ranked and delivered.
 
 ---
 
