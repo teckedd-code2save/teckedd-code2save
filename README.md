@@ -17,9 +17,6 @@ Repo-aware deployment planning tool. Connects to GitHub read-only, scans for dep
 ### [MPP Studio](https://github.com/teckedd-code2save/agent-exchange)
 Developer console for the Machine Payments Protocol. Register APIs, run sandbox 402 flows, inspect service contracts, and graduate to live payment rails — built for agent-to-agent commerce where machines negotiate access and settle autonomously.
 
-### [Spotlight](https://github.com/teckedd-code2save/spotlight)
-Intelligent context layer that surfaces what actually needs attention across your systems — signal over noise, ranked and delivered.
-
 ---
 
 ## Other Work
