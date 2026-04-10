@@ -24,7 +24,7 @@ Developer console for the Machine Payments Protocol. Register APIs, run sandbox 
 | Project | What it does |
 |---------|--------------|
 | **[Datafy](https://github.com/teckedd-code2save/datafy)** | Zero-dependency, token-efficient MCP server for Postgres, MySQL, SQL Server, SQLite. Speaks raw SQL back to agents without ballooning context. |
-| **[b2dp](https://github.com/teckedd-code2save/b2dp)** | Feed it a business spec, get a production-grade backend scaffold. Opinions included. |
+| **[b2dp](https://github.com/teckedd-code2save/ai-build-tools.git)** | Feed it a business spec, get a production-grade backend scaffold. Opinions included. |
 | **[Biblioteck](https://github.com/teckedd-code2save/biblioteck)** | Writing on MLOps, Docker sandboxing, and running models locally without losing your mind. |
 
 ---
