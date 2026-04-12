@@ -14,6 +14,9 @@ Agent-native operations platform built on OpenClaw. First product: Gig Radar —
 ### [Shipd](https://github.com/teckedd-code2save/shipd)
 Repo-aware deployment planning tool. Connects to GitHub read-only, scans for deployment signals (Dockerfiles, CI configs, env files, infra folders), scores platforms like Railway, Fly.io, Vercel, and Render against what it finds, then produces a saved plan with comparison view and evidence trail. No code writes. No deploy execution. Just clear decisions before you touch anything.
 
+### [Website Media Capture MCP](https://github.com/teckedd-code2save/website-media-capture-mcp)
+MCP wrapper around a website capture workflow for turning live products, docs, and research sites into post-ready visual media. Discovers routes from sitemaps or nav, captures full-page experiences, and generates scroll-aware GIF tours with controllable pacing and URL-derived naming.
+
 ### [MPP Studio](https://github.com/teckedd-code2save/agent-exchange)
 Developer console for the Machine Payments Protocol. Register APIs, run sandbox 402 flows, inspect service contracts, and graduate to live payment rails — built for agent-to-agent commerce where machines negotiate access and settle autonomously.
 
