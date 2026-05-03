@@ -8,17 +8,20 @@ I write software that lives at the intersection of distributed systems, autonomo
 
 ## What I'm Shipping
 
+### [Convoy](https://github.com/teckedd-code2save/convoy)
+Deployment agent that rehearses, ships, and observes — without touching your code. Runs a full dry-run before anything moves, executes when you're confident, then watches post-deploy signals for regressions. Built for the Claude Code hackathon on Opus 4.7.
+
+### [Optimi](https://github.com/teckedd-code2save/optimi)
+Privacy-first PWA for tracking opportunities — hackathons, grants, accelerators, jobs. Curated finder, AI application assistant, pipeline dashboard, and a Python scraper that pulls structured data from any URL. Everything local-first, nothing phoned home.
+
 ### [OpsMesh](https://github.com/teckedd-code2save/opsmesh)
-Agent-native operations platform built on OpenClaw. First product: Gig Radar — polls gig/job sources, normalizes and deduplicates, scores via OpenClaw, fires Telegram alerts. OpenClaw handles agent runtime and reasoning; OpsMesh owns domain logic, workflow state, and data model. Next on the same foundation: DM Shop Agent over WhatsApp and Telegram.
+Agent-native operations platform built on OpenClaw. First product: Gig Radar — polls gig/job sources, normalizes and deduplicates, scores via OpenClaw, fires Telegram alerts. OpenClaw owns agent runtime and reasoning; OpsMesh owns domain logic, workflow state, and data model.
 
 ### [Shipd](https://github.com/teckedd-code2save/shipd)
-Repo-aware deployment planning tool. Connects to GitHub read-only, scans for deployment signals (Dockerfiles, CI configs, env files, infra folders), scores platforms like Railway, Fly.io, Vercel, and Render against what it finds, then produces a saved plan with comparison view and evidence trail. No code writes. No deploy execution. Just clear decisions before you touch anything.
+Repo-aware deployment planning tool. Connects to GitHub read-only, scans for deployment signals, scores platforms (Railway, Fly.io, Vercel, Render) against what it finds, and produces a saved plan with comparison view and evidence trail. No code writes. No deploy execution. Just clarity before you touch anything.
 
-### [Website Media Capture MCP](https://github.com/teckedd-code2save/website-media-capture-mcp)
-MCP wrapper around a website capture workflow for turning live products, docs, and research sites into post-ready visual media. Discovers routes from sitemaps or nav, captures full-page experiences, and generates scroll-aware GIF tours with controllable pacing and URL-derived naming.
-
-### [MPP Studio](https://github.com/teckedd-code2save/agent-exchange)
-Developer console for the Machine Payments Protocol. Register APIs, run sandbox 402 flows, inspect service contracts, and graduate to live payment rails — built for agent-to-agent commerce where machines negotiate access and settle autonomously.
+### [Agent Flow Studio](https://github.com/teckedd-code2save/agent-ops)
+Portable company core and project profiles for multi-agent workflows. The context layer that agents carry across sessions — structured company identity, project definitions, and operational state that survives context resets.
 
 ---
 
@@ -26,9 +29,9 @@ Developer console for the Machine Payments Protocol. Register APIs, run sandbox 
 
 | Project | What it does |
 |---------|--------------|
-| **[Datafy](https://github.com/teckedd-code2save/datafy)** | Zero-dependency, token-efficient MCP server for Postgres, MySQL, SQL Server, SQLite. Speaks raw SQL back to agents without ballooning context. |
-| **[b2dp](https://github.com/teckedd-code2save/ai-build-tools.git)** | Feed it a business spec, get a production-grade backend scaffold. Opinions included. |
-| **[Biblioteck](https://github.com/teckedd-code2save/biblioteck)** | Writing on MLOps, Docker sandboxing, and running models locally without losing your mind. |
+| **[MPP Studio](https://github.com/teckedd-code2save/agent-exchange)** | Developer console for the Machine Payments Protocol — register APIs, run sandbox 402 flows, graduate to live payment rails. |
+| **[Datafy](https://github.com/teckedd-code2save/datafy)** | Zero-dependency, token-efficient MCP server for Postgres, MySQL, SQL Server, SQLite. Raw SQL to agents without ballooning context. |
+| **[Biblioteck](https://github.com/teckedd-code2save/biblioteck)** | Writing on MLOps, Docker sandboxing, and running models locally. |
 
 ---
 
