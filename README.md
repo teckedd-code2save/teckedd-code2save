@@ -1,8 +1,8 @@
 # Edward Twumasi
 
-**Systems thinker. Protocol builder. Founder @ Serendepify AI.**
+**Just a Curious Builder. Founder @ Serendepify AI.**
 
-Building the infrastructure layer for AI-native software — autonomous deployment pipelines, agent-run organizations, machine payment protocols, and small-model field research. Most of it starts as something I needed and couldn't find.
+Building the infrastructure layer for AI-native software — autonomous deployment pipelines, agent-run organizations, machine payment protocols, and small-model field research. Just anything that put agents in control.
 
 ---
 
