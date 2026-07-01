@@ -1,106 +1,104 @@
-# Edward Twumasi
+# Hi, I'm Edward 👋
 
-**Just a Curious Builder. Founder @ Serendepify AI.**
+📍 **Accra, Ghana** | 🏗️ **Founder @ Serendepify** | 🤖 **Building the infrastructure for agentic autonomy**
 
-Building the infrastructure layer for AI-native software — autonomous deployment pipelines, agent-run organizations, machine payment protocols, and small-model field research. Just anything that put agents in control.
+Building Convoy, GroundControl, and agent-native platforms. Exploring small-model AI for African languages. Agents that hire agents, machines that pay machines, infrastructure that ships itself.
 
----
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![OpenClaw](https://img.shields.io/badge/-OpenClaw-121212?style=flat-square&logo=openai&logoColor=white)
+![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-## // build, deploy & ship
-*Agentic autonomy across the software delivery lifecycle.*
+## Start Here
 
-| | |
-|---|---|
-| **[Convoy](https://github.com/teckedd-code2save/convoy)** | Deployment agent that rehearses, ships, and observes. Opus 4.7 medic loop investigates breaches with 4 scoped tools — never patches code it doesn't own. |
-| **[Shipd](https://github.com/teckedd-code2save/shipd)** | Reads a repo, scores 11 hosting platforms against real deployment signals, produces a saved plan with evidence trail. No code writes. No deploy execution. |
-| **[GroundControl](https://github.com/teckedd-code2save/groundcontrol)** | Self-hosted Docker infrastructure dashboard — inspect containers, watch logs, manage services from one interface. |
-| **[b2dp](https://github.com/teckedd-code2save/ai-build-tools)** | Detects your agent environment, installs the backend delivery skill ecosystem, wires Datafy MCP, and verifies everything connects. |
+- 🚀 **[Convoy](https://github.com/teckedd-code2save/convoy)** — deployment agent that rehearses, ships, and observes without touching your code
+- 🖥️ **[GroundControl](https://github.com/teckedd-code2save/groundcontrol)** — self-hosted Docker infrastructure dashboard; inspect, watch, manage
+- 🤖 **[AgentMart](https://github.com/teckedd-code2save/agentmart)** — autonomous agent economy; agents hire agents, settle payment on completion
+- 🗄️ **[Datafy](https://github.com/teckedd-code2save/datafy)** — zero-dependency MCP server for Postgres, MySQL, SQL Server, SQLite
+- 📡 **[OpsMesh](https://github.com/teckedd-code2save/opsmesh)** — agent-native ops platform on OpenClaw; Gig Radar, DM Shop Agent
+- 👁️ **[Adwuma Pa](https://github.com/teckedd-code2save/adwuma-pa)** — small-model AI care network for Ghanaian families; 9.8B parameter budget
 
----
+## Current Projects
 
-## // agent markets & machine payments
-*Infrastructure for agents as economic actors — where autonomous systems hire, pay, and transact.*
+### Agent Infrastructure
 
-| | |
-|---|---|
-| **[AgentMart](https://github.com/teckedd-code2save/agentmart)** | Autonomous agent economy — agents post work, hire other agents, and settle payment on completion. |
-| **[MPP Studio](https://github.com/teckedd-code2save/agent-exchange)** | Developer console for the Machine Payments Protocol — register APIs, exercise sandbox 402 flows, graduate to live payment rails. |
+- 🚀 **[Convoy](https://github.com/teckedd-code2save/convoy)** — deployment agent with Opus 4.7 medic loop; rehearses, ships, observes
+- ⛵ **[Shipd](https://github.com/teckedd-code2save/shipd)** — reads a repo, scores 11 hosting platforms, produces a saved deployment plan
+- 🖥️ **[GroundControl](https://github.com/teckedd-code2save/groundcontrol)** — Docker + Caddy + Prisma/SQLite VPS command center
+- 🧰 **[b2dp](https://github.com/teckedd-code2save/ai-build-tools)** — detects agent environment, installs backend delivery ecosystem, wires MCP
 
----
+### Agent Economy & Machine Payments
 
-## // agent-native operations
-*Platforms where agents do the operational work — not assist with it.*
+- 🤖 **[AgentMart](https://github.com/teckedd-code2save/agentmart)** — agents post work, hire other agents, settle on completion
+- 💳 **[MPP Studio](https://github.com/teckedd-code2save/agent-exchange)** — developer console for Machine Payments Protocol; sandbox 402 flows
 
-| | |
-|---|---|
-| **[OpsMesh](https://github.com/teckedd-code2save/opsmesh)** | Agent-native ops platform on OpenClaw. First product: Gig Radar — polls sources, scores via OpenClaw, fires Telegram alerts. DM Shop Agent (WhatsApp + Telegram) is next on the same foundation. |
-| **[Agent Flow Studio](https://github.com/teckedd-code2save/agent-ops)** *(private)* | Operating system for an agent-run venture studio. Full agent chain — CEO, Chief of Staff, Architect, Builder, QA, Delivery Operator — each scoped to their lane on Paperclip + Linear + Symphony. |
+### Agent-Native Operations
 
----
+- 📡 **[OpsMesh](https://github.com/teckedd-code2save/opsmesh)** — agent-native ops on OpenClaw: Gig Radar → Telegram alerts, DM Shop Agent
+- 🏭 **Agent Flow Studio** *(private)* — full agent chain (CEO → Chief of Staff → Architect → Builder → QA → Delivery Operator) on Paperclip + Linear
 
-## // mcp layer
-*Protocol-native tooling — built to be called by agents, not humans.*
+### MCP Layer
 
-| | |
-|---|---|
-| **[Datafy](https://github.com/teckedd-code2save/datafy)** | Zero-dependency MCP server for Postgres, MySQL, SQL Server, SQLite. Raw SQL to agents without ballooning context. |
-| **[Website Media Capture MCP](https://github.com/teckedd-code2save/website-media-capture-mcp)** | Turns live sites into scroll-aware GIF tours via MCP — route discovery, full-page capture, URL-derived naming. |
+- 🗄️ **[Datafy](https://github.com/teckedd-code2save/datafy)** — raw SQL to agents without ballooning context; Postgres, MySQL, SQL Server, SQLite
+- 📸 **[Website Media Capture MCP](https://github.com/teckedd-code2save/website-media-capture-mcp)** — scroll-aware GIF tours of live sites via MCP
 
----
+### Research & Small-Model AI
 
-## // attention & intent
-*Tools for human decision-making, focus, and not missing what matters.*
+- 👁️ **[Adwuma Pa](https://github.com/teckedd-code2save/adwuma-pa)** — AI care network: multilingual check-ins, silence detection, concern scoring, nearest-relative nudges
+- 🗣️ **[Custom Twi ASR](https://github.com/teckedd-code2save/custom-twi-asr-inferencer)** — Twi language speech recognition inference server, Docker-containerized
+- 🎙️ **[Akan Speech Lab](https://github.com/teckedd-code2save/akan-speech-lab)** — ASR, TTS, and voice datasets for West Africa's Akan language
+- 🧪 **[AI-LAB](https://github.com/teckedd-code2save/AI-LAB)** — catalogue of AI/ML experiments, pipelines, and implementations
+- 📊 **[Urbanize](https://github.com/teckedd-code2save)** *(client project)* — academic urban analytics measuring the 5 Ds of the built environment; PostGIS on Hetzner
 
-| | |
-|---|---|
-| **[IntentEngine](https://github.com/teckedd-code2save/IntentEngine)** | Anchors stated intent and intervenes when behavior drifts — behavioral infrastructure, not a distraction blocker. |
-| **[optimi](https://github.com/teckedd-code2save/optimi)** | Privacy-first PWA for tracking opportunities — hackathons, grants, accelerators, jobs. AI assistant, pipeline dashboard, URL scraper. All local-first. |
-| **[system.heartbeat](https://github.com/teckedd-code2save/system.heartbeat)** | Real-time Mac health dashboard — what's running, what's consuming, what needs attention. |
+### Attention & Intent Tools
 
----
+- 🎯 **[IntentEngine](https://github.com/teckedd-code2save/IntentEngine)** — anchors stated intent, intervenes when behavior drifts; behavioral infrastructure
+- 🧭 **[optimi](https://github.com/teckedd-code2save/optimi)** — privacy-first PWA for tracking opportunities (hackathons, grants, accelerators, jobs)
+- ❤️ **[system.heartbeat](https://github.com/teckedd-code2save/system.heartbeat)** — real-time Mac health dashboard; what's running, what's consuming
 
-## // products
+### Products
 
-| | |
-|---|---|
-| **RentAWeekend** *(private)* | Weekend rental marketplace. |
-| **perfume-emporio** *(private)* | Fragrance e-commerce platform. |
-| **[HealthWallet](https://github.com/teckedd-code2save/HealthWallet-TON-MiniApp)** *(private)* | Health app powered by TON payments. |
-| **[soft-pharma-manager](https://github.com/teckedd-code2save/soft-pharma-manager)** | Pharmacy management software. |
+- 🧳 **[TravelMate](https://github.com/teckedd-code2save/TravelMate)** — integrated ticketing for buses, trains, and flights
+- 💊 **[soft-pharma-manager](https://github.com/teckedd-code2save/soft-pharma-manager)** — pharmacy management software
+- 📝 **[notes-manager](https://github.com/teckedd-code2save/notes-manager)** — developer note-taking with activity tracking
 
----
+## GitHub Activity
 
-## // research
+![GitHub Contribution Graph](https://gitlyy.vercel.app/api/contribution?username=teckedd-code2save&hide_border=true)
 
-| | |
-|---|---|
-| **[Ani Kɛse · the family's big eye](https://github.com/teckedd-code2save/adwuma-pa)** | Small-model AI care network for Ghanaian families — multilingual check-ins, silence detection, concern scoring, nearest-relative nudges, and loop closure for elders who may not ask for help. 9.8B parameter budget across ASR (1B) · translate (0.6B) · LLM (7B). |
-| **[AI-LAB](https://github.com/teckedd-code2save/AI-LAB)** | Catalogue of AI/ML and data projects — experiments, pipelines, and implementations. |
-| **[Custom Twi ASR](https://github.com/teckedd-code2save/custom-twi-asr-inferencer)** | Twi language speech recognition inference server, containerized with Docker. |
-| **[ASR](https://github.com/teckedd-code2save/ASR)** | Automatic speech recognition research and implementation. |
+## What I'm Doing
 
----
+- **Building agent-native infrastructure** — Convoy, GroundControl, and platforms where agents do the operational work
+- **Exploring agent economies** — AgentMart, MPP Studio; machines that hire and pay machines
+- **Small-model AI for African languages** — Twi ASR, Akan speech lab, elder care networks on a 9.8B parameter budget
+- **Academic urban analytics** — Urbanize: measuring the 5 Ds of the built environment with PostGIS
+- **Shipping fast** — push direct to main, multiple repos per session, real execution over planning
 
-## GitHub Stats
+## Connect
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=teckedd-code2save&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=teckedd-code2save&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e)
-
-</div>
+[![Portfolio](https://img.shields.io/badge/-precision_xyz-000000?style=flat-square&logo=vercel&logoColor=white)](https://edward-entire.vercel.app)
+[![X](https://img.shields.io/badge/-@EdwardsTwums-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/EdwardsTwums)
+[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/teckedd-code2save)
+[![Serendepify](https://img.shields.io/badge/-serendepify.com-FF5722?style=flat-square&logo=safari&logoColor=white)](https://serendepify.com)
 
 ---
 
-## Find Me
+### Philosophy
 
-[Portfolio](https://edward-entire.vercel.app) · [Twitter / X](https://twitter.com/EdwardsTwums)
+> "The best abstraction is the one you don't notice." — I build infrastructure that agents and developers reach for without thinking about it. Currently exploring how autonomous systems change everything about how software gets built, deployed, and paid for.
 
----
+<details>
+<summary>Random Facts</summary>
 
-<div align="center">
+- Runs 3+ Claude Code instances concurrently for parallel agent workflows
+- Built Serendepify from scratch — agent infrastructure, research lab, and product studio
+- Researching small-model AI for low-resource African languages (Twi, Akan)
+- Working on agent-to-agent payment protocols (MPP by Stripe)
+- Ghana-based, building for global infrastructure
+- Portfolio brand: "precision xyz" — forging AI-native narratives
 
-*"The best abstraction is the one you don't notice."*
-
-</div>
+</details>
