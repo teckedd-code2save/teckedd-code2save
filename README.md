@@ -1,34 +1,39 @@
 # Edward Twumasi
 
-**Backend engineering · Applied AI · Agent infrastructure**
+**Distributed systems · Agent infrastructure · Applied AI**
 
-I’m a Lead Backend Engineer at Hubtel and the founder of Serendepify. I build the systems around AI: backend services, language understanding, agent workflows, and the infrastructure that takes them into working products.
+I’m a Lead Backend Engineer at Hubtel and founder-engineer at Serendepify. I build stateful backend systems, agent infrastructure, and low-resource-language AI, with a bias toward the parts that fail in production: orchestration, concurrency, identity, deployment, evaluation, observability, and recovery.
 
 [Portfolio](https://precisionxyz.serendepify.com/) · [Research](https://precisionxyz.serendepify.com/#/research) · [Writing](https://precisionxyz.serendepify.com/#/articles) · [LinkedIn](https://www.linkedin.com/in/edward-twumasi/)
 
-## Selected work
+## Current systems work
 
 | Project | The engineering problem | Explore |
 | --- | --- | --- |
-| **Ghana Health AI** | A Twi-first health research preview connecting voice interaction, language understanding, model evaluation, and a deployed product. | [Code](https://github.com/teckedd-code2save/ghana-health-ai) · [Research](https://precisionxyz.serendepify.com/#/research) |
-| **GroundControl** | A self-hosted interface for deployments, containers, routes, logs, and host control—for operators and authenticated agents. | [Code and architecture](https://github.com/teckedd-code2save/groundcontrol) · [Host terminal design](https://precisionxyz.serendepify.com/#/article/nsenter-bridge) |
-| **Convoy** | An agent-enabled deployment workflow built around rehearsal, release, and observation, with explicit action boundaries. | [Code and demo](https://github.com/teckedd-code2save/convoy) |
-| **Akan Speech Lab** | Speech and language experiments with evaluation records, model lineage, and Modal workflows. | [Lab](https://github.com/teckedd-code2save/akan-speech-lab) · [Hugging Face](https://huggingface.co/teckedd) |
+| **GroundControl** | An agent-operable infrastructure control plane for applications on operator-owned servers. Remote agents use scoped MCP/OAuth actions instead of generic shell access; mutations become durable idempotent operations; connector capabilities are verified independently; exact deployed revisions can be reproduced in ephemeral sandboxes before repair. | [Code + architecture](https://github.com/teckedd-code2save/groundcontrol) · [Host terminal design](https://precisionxyz.serendepify.com/#/article/nsenter-bridge) |
+| **RentAWeekend** | A real-world agent execution system that turns uncertain conversational intent into research, saved choices, reviewed arrangements, payments, and human-executed work without silently crossing effect boundaries. Recent work includes row-lock/uniqueness protection for retries, transactional provenance, provider shadowing, and checkpointed recovery from model/provider failures. | [Private product repository](https://github.com/teckedd-code2save/RentAWeekend) · [Live product](https://rentmyweekend.serendepify.com) |
+| **Ghana Health AI** | A Twi-first speech-and-language research stack connecting corpus provenance, ASR, human review, model adaptation, semantic evaluation, GPU training, and a deployed voice product. Model promotion is gated by evidence rather than demo quality. | [Code](https://github.com/teckedd-code2save/ghana-health-ai) · [Research](https://precisionxyz.serendepify.com/#/research) · [Models](https://huggingface.co/teckedd) |
+| **Backend as Natural Language** | A Rust research runtime for lowering controlled natural-language backend declarations into typed intermediate representations, deterministic plans, validation traces, and executable capabilities. | [Portfolio overview](https://precisionxyz.serendepify.com/#/projects) |
 
-## Research, with the limits visible
+## What I tend to work on
 
-I work on Twi/Akan speech and meaning: data provenance, review workflows, model adaptation, evaluation, and product integration. Published checkpoints are research artifacts; publication is not a claim that a model is ready for a live health product. The research records should make both the result and the reason to hold a model back inspectable.
+- **Distributed and durable backends:** C#/.NET, Temporal workflows, Kafka, Akka.NET, PostgreSQL, Redis, Elasticsearch/OpenSearch, failure handling, concurrency-sensitive financial and public-sector workflows.
+- **Agent infrastructure:** scoped identity and authorization, long-running operations, idempotency, sandboxed reproduction, human approval boundaries, deployment/recovery tooling, MCP.
+- **ML systems and evaluation:** Twi/Akan speech and meaning, corpus lineage, GPU training on Modal, model promotion gates, negative-result retention, and production inference.
+- **Developer infrastructure:** Docker/Compose, Linux, Caddy/Nginx, GitHub Actions, Azure DevOps, cloud deployment, observability, and self-hosted control planes.
 
-I’m also working on **Backend as Natural Language (BNL)**, compiler research around controlled natural-language backend declarations. The source is private; the [portfolio work index](https://precisionxyz.serendepify.com/#/projects) provides a high-level overview.
+## Engineering standard
 
-## Engineering foundations
+I’m interested in systems where the architecture has to survive retries, partial failure, unreliable model output, human approval, and production operations. I try to make the evidence inspectable: PRs, tests, evaluation records, deployment identities, benchmarks, failure traces, and explicit limitations.
 
-C#/.NET, TypeScript, Python, PostgreSQL, Kafka, Redis, Docker, and Linux. My focus is the behavior of the whole system: API contracts, data flow, failure handling, evaluation, deployment, and operation.
+## Research
 
-For reusable delivery tooling, see [Forge](https://github.com/teckedd-code2save/ai-build-tools). For concrete integration workflows, see [Integration Skills](https://github.com/teckedd-code2save/integration-skills).
+My current research centers on low-resource Ghanaian language systems, especially Twi speech and semantic recovery. I keep research artifacts, reviewed data, model candidates, and production promotion as distinct evidence classes.
+
+I also co-authored a peer-reviewed paper in *African Geographical Review* on geocoding polling-station data and accessibility in Ghana.
 
 ## Work with me
 
-Building an AI product, developer tool, or backend platform? [Start a conversation](https://precisionxyz.serendepify.com/#/contact).
+I’m especially interested in distributed infrastructure, agent/research platforms, ML systems, and teams building AI that has to operate reliably outside a notebook.
 
-For a focused API integration, deployment, or workflow automation, [send a short brief](https://precisionxyz.serendepify.com/#/help). We’ll agree on scope, fee, and timing before work begins.
+[Explore the work](https://precisionxyz.serendepify.com/#/projects) · [Read the engineering notes](https://precisionxyz.serendepify.com/#/articles) · [Get in touch](https://precisionxyz.serendepify.com/#/contact)
